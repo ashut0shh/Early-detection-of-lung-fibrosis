@@ -19,9 +19,6 @@ This document provides a list of publicly available datasets for lung sound anal
 - [COVID-QU Chest X-ray Dataset (Kaggle)](https://www.kaggle.com/datasets/anasmohammedtahir/covidqu)
 
 
-##  RICORD-1A (COVID-19 + Fibrosis)
-Description: CT scans of COVID-19 patients, some with fibrosis-like patterns.  
-Link: <a href="https://www.cancerimagingarchive.net/collection/covid-19-ar" target="_blank">RICORD-1A</a> 
 
 ##  LIDC-IDRI (Lung Image Database Consortium)
 Description: CT scans with annotations for nodules, fibrosis, and other lung pathologies. 
