@@ -19,32 +19,38 @@ This document provides a list of publicly available datasets for lung sound anal
 - [COVID-QU Chest X-ray Dataset (Kaggle)](https://www.kaggle.com/datasets/anasmohammedtahir/covidqu)
 
 
-<!-- ## 1. RICORD-1A (COVID-19 + Fibrosis)
+##  RICORD-1A (COVID-19 + Fibrosis)
 Description: CT scans of COVID-19 patients, some with fibrosis-like patterns.  
-Link: <a href="https://www.cancerimagingarchive.net/collection/covid-19-ar" target="_blank">RICORD-1A</a> -->
+Link: <a href="https://www.cancerimagingarchive.net/collection/covid-19-ar" target="_blank">RICORD-1A</a> 
 
-<!-- ## 2. LIDC-IDRI (Lung Image Database Consortium)
-Description: CT scans with annotations for nodules, fibrosis, and other lung pathologies.  
-Link: <a href="https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI" target="_blank">LIDC-IDRI</a> -->
+##  LIDC-IDRI (Lung Image Database Consortium)
+Description: CT scans with annotations for nodules, fibrosis, and other lung pathologies. 
+Dataset Size: 1,018 cases, each including images from a clinical thoracic CT scan.
+Link: <a href="https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI" target="_blank">LIDC-IDRI</a> 
 
 ##  ChestX-ray8 (NIH)
-Description: 112k X-rays with 14 pathologies, including fibrosis.  
+Description: 112k X-rays with 14 pathologies, including fibrosis. 
+Dataset Size: 108,948 frontal-view X-ray images from 32,717 unique patients.
 Link: <a href="https://nihcc.app.box.com/v/ChestXray-NIHCC" target="_blank">ChestX-ray8</a>
 
 ##  VinDr-CXR (Vietnam Dataset)
 Description: 18,000 chest X-rays with 14 pathologies, including fibrosis.  
+Dataset Size: 18,000 postero-anterior (PA) view chest X-rays.
 Link: <a href="https://vindr.ai/datasets/cxr" target="_blank">VinDr-CXR</a>
 
-<!-- ## 5. MIMIC-CXR (Massachusetts Institute of Technology)
+##  MIMIC-CXR (Massachusetts Institute of Technology)
 Description: 377k chest X-rays with free-text radiology reports.  
-Link: <a href="https://physionet.org/content/mimic-cxr-jpg/2.0.0/" target="_blank">MIMIC-CXR</a> -->
+Dataset Size: 377,110 images corresponding to 227,835 radiographic studies.
+Link: <a href="https://physionet.org/content/mimic-cxr-jpg/2.0.0/" target="_blank">MIMIC-CXR</a> 
 
-<!-- ## 6. DeepLesion (NIH)
+##  DeepLesion (NIH)
 Description: CT scans with annotations for lesions, including fibrosis.  
-Link: <a href="https://nihcc.app.box.com/v/DeepLesion" target="_blank">DeepLesion</a> -->
+Dataset Size: The dataset comprises 32,735 lesions annotated on CT images.
+Link: <a href="https://nihcc.app.box.com/v/DeepLesion" target="_blank">DeepLesion</a> 
 
-<!-- ## 7. COVID-19 Radiography Dataset
-Description: Includes images for lung fibrosis caused by COVID-19.  
+##  COVID-19 Radiography Dataset
+Description: Includes images for lung fibrosis caused by COVID-19. 
+Dataset Size: The dataset contains 21,165 images across various categories.
 Links: 
 - <a href="https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database" target="_blank">COVID-19 Radiography Database</a>
-- <a href="https://www.kaggle.com/datasets/anasmohammedtahir/covidqu" target="_blank">COVIDQU</a> -->
+- <a href="https://www.kaggle.com/datasets/anasmohammedtahir/covidqu" target="_blank">COVIDQU</a> 
