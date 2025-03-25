@@ -1,0 +1,44 @@
+# 🎧 Lung Sound Dataset – Pulmonary Fibrosis Detection
+
+This dataset contains lung sound recordings used to develop a machine learning model for the **early detection of pulmonary fibrosis**.
+
+---
+
+## 🏷 Categories
+
+- **Normal** – Healthy lung sounds
+- **Fibrosis** – Sounds with **Velcro-like crackles**, **dry crackles**, or medically marked as Pulmonary Fibrosis 
+
+## 🎧 File Format
+
+- **Audio Format**: `.wav`
+- **Sample Rate**: Varied (standardized during preprocessing)
+- **Duration**: Varies; segmented into 3–5 second clips
+
+---
+
+## 🔧 Preprocessing Steps
+
+1. **Noise Removal** using filters (bandpass filtering)
+2. **Segmentation** into fixed time windows (e.g., 3 seconds)
+3. **Feature Extraction**:
+   - **Mel Spectrograms**
+   - **MFCCs (Mel-Frequency Cepstral Coefficients)**
+   - **Chroma Features**
+   - **Zero-Crossing Rate**
+4. **Normalization** for consistent input to ML models
+5. **Categorization** into `Normal` and `Fibrosis` folders
+
+---
+
+## Spectrogram Visualization
+
+Converted audio clips are transformed into **Mel Spectrogram images** for training CNN-based models. These are stored in the `spectrograms/` folder and named according to class labels.
+
+---
+
+## 📌 Notes
+
+- Audio files not clearly labeled as **normal** or **fibrosis** were excluded.
+- Further filtering may be done based on **signal-to-noise ratio** or **annotation quality**.
+- Crackles labeled as "coarse" or "fine" were retained only if medically relevant to fibrosis.
